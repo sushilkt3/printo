@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'printo_Example' do
+  pod 'printo', :path => '../'
+
+  target 'printo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
