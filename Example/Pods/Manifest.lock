@@ -1,0 +1,16 @@
+PODS:
+  - printo (0.1.0)
+
+DEPENDENCIES:
+  - printo (from `../`)
+
+EXTERNAL SOURCES:
+  printo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  printo: a6dd55ebc8bcea5da6fcb9a2b85ca0d6d77c7065
+
+PODFILE CHECKSUM: 780011a86e498885e5828097c97cdbb8f104c9e5
+
+COCOAPODS: 1.10.1

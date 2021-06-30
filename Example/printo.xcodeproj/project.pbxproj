@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		420D90FDB76484671C6A9DF6 /* printo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = printo.podspec; path = ../printo.podspec; sourceTree = "<group>"; };
+		420D90FDB76484671C6A9DF6 /* printo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = printo.podspec; path = ../printo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		520B6C29CCD3704AF8E0901E /* Pods-printo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-printo_Example.debug.xcconfig"; path = "Target Support Files/Pods-printo_Example/Pods-printo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* printo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = printo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		9BDF6D268CB420ACF8E768D5 /* Pods_printo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_printo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F425DDAFBED52B1B04643E9 /* Pods-printo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-printo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-printo_Tests/Pods-printo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B798E0537800CA2B6EB7FAD0 /* Pods-printo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-printo_Example.release.xcconfig"; path = "Target Support Files/Pods-printo_Example/Pods-printo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C09DDC5E0A5D57F60FFD4621 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D730F653E82D08B7CE9352BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C09DDC5E0A5D57F60FFD4621 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D730F653E82D08B7CE9352BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D76DA109CF47D93CAB1BF2CC /* Pods-printo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-printo_Tests.release.xcconfig"; path = "Target Support Files/Pods-printo_Tests/Pods-printo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				9F425DDAFBED52B1B04643E9 /* Pods-printo_Tests.debug.xcconfig */,
 				D76DA109CF47D93CAB1BF2CC /* Pods-printo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

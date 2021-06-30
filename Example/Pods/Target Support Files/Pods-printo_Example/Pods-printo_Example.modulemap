@@ -1,0 +1,6 @@
+framework module Pods_printo_Example {
+  umbrella header "Pods-printo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
