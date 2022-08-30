@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'printo'
-  s.version          = '0.1.0'
+  s.version          = '5.0'
   s.summary          = 'just print things up  of printo.'
 
 # This description is used to generate tags and improve search results.
